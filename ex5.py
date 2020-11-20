@@ -1,13 +1,17 @@
-name = "Michael Bilbang"
-age = 28
-height = 180
-weight = 95
-eyes = "Blau"
-hair = "Braun"
+my_name = 'Michael Bilbang'
+my_age = 31 # not a lie
+my_height = 180 # cm
+my_weight = 100 # kg
+my_eyes = 'Blau'
+my_teeth = 'Weiß'
+my_hair = 'Hellbraun'
 
-print "Lass uns ueber %s sprechen." % name
-print "Er ist %d cm gross." % height
-print "Er ist %d kg schwer." % weight
-print "Er hat die Augenfarbe %s und sein Haar ist %s." % (eyes, hair)
+print(f"Lass uns über {my_name} reden.")
+print(f"Er ist {my_height} cm groß und wiegt {my_weight} kg.")
+print("Was genau genommen ziemlich viel ist.")
+print(f"Seine Augen sind {my_eyes} und sein Haar ist {my_hair}.")
+print(f"Wenn er an das putzen denkt sind seine Zähne auch {my_teeth}.")
 
-print "Wenn ich %d, %d und %d zusammenzaehle, bekomme ich %d." % (age, height, weight, age + height + weight)
+#this line is tricky, try to get it exactly right
+total = my_age + my_height + my_weight
+print(f"Wenn ich {my_age}, {my_height} und {my_weight} addiere bekomme ich {total}.")

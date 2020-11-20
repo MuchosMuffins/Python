@@ -1,27 +1,23 @@
-#Print
-print "I will now count my chickens:"
+print("Ich werde nun meine Hühner zählen:")
 
-#We do some math, Punkt vor Strichrechnung
-print "Hens", 25 + 30 / 6
-print "Roosters", 100 - 25 * 3 % 4
+print("Hennen", 25 + 30 / 6)
+print("Gockel", 100 - 25 * 3 % 4)
 
+print("Nun werde ich meine Eier zählen:")
 
-print "Now I will count the eggs:"
+print(3 + 2 + 1 - 5 + 4 % 2 -1 / 4 + 6)
 
-#Punkt vor Strich
-print 3 + 2 + 1 - 5 + 4 % 2 - 1 / 4 + 6
+print("Ist es war das 3 + 2 < 5 - 7 ist?")
 
-print "Is it true that 3 + 2 < 5 - 7?"
+print(3 + 2 < 5 - 7)
 
-print 3 + 2 < 5 - 7
+print("Was ist 3 + 2?", 3 + 2)
+print("Was ist 5 - 7?", 5 - 7)
 
-print "What is 3 + 2?", 3 + 2
-print "What is 5 - 7?", 5 - 7
+print("Oh, deswegen ist es:", 3 + 2 < 5 - 7)
 
-print "Oh, that's why it's False."
+print("Wie wäre es mit einem bisschen mehr?")
 
-print "How about some more."
-
-print "Is it greater?", 5 > -2
-print "Is it greater or equal?", 5 >= -2
-print "Is it less or equal?", 5 <= -2
+print("Ist 5 größer als -2?", 5 > -2)
+print("Ist 5 größer oder gleich -2?", 5 >= -2)
+print("Ist 5 kleiner oder gleich -2?", 5 <= -2)
